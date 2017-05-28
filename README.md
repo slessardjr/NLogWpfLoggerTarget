@@ -1,14 +1,13 @@
 [1]: https://github.com/erizet/NlogViewer
 
 # NLogWpfLoggerTarget
-==========
 A Logger Target for WPF Applications to display contents of the logger.
 
 NLogWpfLoggerTarget is combination WPF-control and API to show NLog output in a WPF application. It is inspired by [The NLogViewer Project][1].
 
-##How to use?##
+#### How to add it to your WPF Application
 
-If you XAML Add a namespace to the window
+In your XAML, add the namespace to the window
 
         xmlns:nLogWpfLoggerTarget="clr-namespace:NLogWpfLoggerTarget.Controls;assembly=NLogWpfLoggerTarget"
 
